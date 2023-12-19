@@ -1,6 +1,6 @@
 # MQTT Action Executor
 
-This Spring Boot project is designed to listen to a specific MQTT topic, receive messages, and execute predefined actions based on the payload of the messages. It uses the Eclipse Paho MQTT library for MQTT communication.
+This Spring Boot project is designed to listen to a specific MQTT topic, receive messages, and execute predefined windows console commands based on the payload of the messages. It uses the Eclipse Paho MQTT library for MQTT communication.
 
 ## Table of Contents
 - [Configuration](#configuration)
