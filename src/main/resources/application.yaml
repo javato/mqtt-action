@@ -1,0 +1,13 @@
+gateway:
+  uri: tcp://mqtt-broker-url:1883
+  client-id: your-client-id
+  username: your-username
+  password: your-password
+  topic: your-mqtt-topic
+
+actions:
+  commands:
+    calc: "calc"
+    sleep: "rundll32.exe powrprof.dll, SetSuspendState Sleep"
+    example-action-3: "your-command-for-example-action-3"
+# Add more action mappings as needed
